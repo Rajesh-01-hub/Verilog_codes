@@ -4,8 +4,7 @@ module mod_a (
     input b, 
     input c,
     input d,
-    output out1,
-    output out2
+    output out1,out2
 );
   assign out1 = a & b;
   assign out2 = c ^ d;
