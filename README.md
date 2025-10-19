@@ -1,12 +1,36 @@
-# Verilog_codes
-why should we learn HDL(hardware discription langauge) ? 
-A: ->it is a specilized computer langauge -> it is used to describe the structure and behaviour of electronic system / hardware system. 
-->basically, it is concurrency, mean to say excuite at a same time. Verilog , System verilog and VHDL are using for hardware description level of abstractions are the most important for verilog .
-we should know the level of abstractions allows to design circuits by using code.
--> switch levle abstraction 
--> gate level abstration
--> dataflow level abstration 
--> behaviour level abstration
-if we understand the flow of level abstraction through by using verilog, you will know the actual meaning of verilog codes along with test bech.
+<h1>HDL(hardware descriptive language)- Verilog </h1>
 
-lost think but not the least completing verilog, system verilog through testbeches , you will select for those job roles : digital design and DV(design verification).
+ ### WHY SHOULD WE LEARN HDL (Hardware Description Language)?
+
+! HDL (Hardware Description Language) is a specialized computer language used to describe the structure and behavior of an electronic / hardware system.
+! It allows concurrent execution, meaning multiple operations run at the same time — just like real hardware.
+! The most popular HDLs are:
+
+->Verilog
+
+->SystemVerilog
+
+->VHDL
+
+### ⚙️ LEVELS OF ABSTRACTION IN VERILOG**
+
+Understanding the levels of abstraction helps you design, simulate, and visualize circuits through code.
+Each level gives you a different way to represent hardware.
+
+### Abstration levels 
+| **Level**            | **Description**                                    | **Example**                      |
+| -------------------- | -------------------------------------------------- | -------------------------------- |
+| **Switch Level**     | Describes hardware using transistor-level modeling | Example: `nmos`, `pmos`          |
+| **Gate Level**       | Describes circuits using logic gates               | Example: AND, OR, NOT            |
+| **Dataflow Level**   | Describes how data moves between signals           | Example: `assign Y = A & B;`     |
+| **Behavioral Level** | Describes system behavior using procedural blocks  | Example: `always @(posedge clk)` |
+### WHY ABSTRACTION FLOW MATTERS
+
+If you understand the flow of abstraction through Verilog,
+you will understand the actual meaning of your Verilog codes —
+from logic gates to behavioral models — along with testbenches.
+
+->>**This skill is what separates a coder from a true digital design engineer.**<<-
+
+### IN SHORT
+<h3>Verilog + SystemVerilog + Testbenches = Digital Design & Verification Career Success!</h3>
